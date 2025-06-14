@@ -4,6 +4,8 @@
     "name": "Leanne Graham",
     "username": "Bret",
     "email": "Sincere@april.biz",
+    "role": "Admin",
+    "status": "Active",
     "address": {
       "street": "Kulas Light",
       "suite": "Apt. 556",
@@ -27,6 +29,8 @@
     "name": "Ervin Howell",
     "username": "Antonette",
     "email": "Shanna@melissa.tv",
+    "role": "Manager",
+    "status": "Active",
     "address": {
       "street": "Victor Plains",
       "suite": "Suite 879",
@@ -50,6 +54,8 @@
     "name": "Clementine Bauch",
     "username": "Samantha",
     "email": "Nathan@yesenia.net",
+    "role": "User",
+    "status": "Active",
     "address": {
       "street": "Douglas Extension",
       "suite": "Suite 847",
@@ -73,6 +79,8 @@
     "name": "Patricia Lebsack",
     "username": "Karianne",
     "email": "Julianne.OConner@kory.org",
+    "role": "User",
+    "status": "Inactive",
     "address": {
       "street": "Hoeger Mall",
       "suite": "Apt. 692",
@@ -96,6 +104,8 @@
     "name": "Chelsey Dietrich",
     "username": "Kamren",
     "email": "Lucio_Hettinger@annie.ca",
+    "role": "Manager",
+    "status": "Active",
     "address": {
       "street": "Skiles Walks",
       "suite": "Suite 351",
@@ -119,6 +129,8 @@
     "name": "Mrs. Dennis Schulist",
     "username": "Leopoldo_Corkery",
     "email": "Karley_Dach@jasper.info",
+    "role": "User",
+    "status": "Suspended",
     "address": {
       "street": "Norberto Crossing",
       "suite": "Apt. 950",
@@ -142,6 +154,8 @@
     "name": "Kurtis Weissnat",
     "username": "Elwyn.Skiles",
     "email": "Telly.Hoeger@billy.biz",
+    "role": "User",
+    "status": "Active",
     "address": {
       "street": "Rex Trail",
       "suite": "Suite 280",
@@ -165,6 +179,8 @@
     "name": "Nicholas Runolfsdottir V",
     "username": "Maxime_Nienow",
     "email": "Sherwood@rosamond.me",
+    "role": "User",
+    "status": "Active",
     "address": {
       "street": "Ellsworth Summit",
       "suite": "Suite 729",
@@ -188,6 +204,8 @@
     "name": "Glenna Reichert",
     "username": "Delphine",
     "email": "Chaim_McDermott@dana.io",
+    "role": "User",
+    "status": "Active",
     "address": {
       "street": "Dayna Park",
       "suite": "Suite 449",
@@ -211,6 +229,8 @@
     "name": "Clementina DuBuque",
     "username": "Moriah.Stanton",
     "email": "Rey.Padberg@karina.biz",
+    "role": "Manager",
+    "status": "Active",
     "address": {
       "street": "Kattie Turnpike",
       "suite": "Suite 198",
@@ -227,6 +247,26 @@
       "name": "Hoeger LLC",
       "catchPhrase": "Centralized empowering task-force",
       "bs": "target end-to-end models"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Test User",
+    "email": "test@example.com",
+    "username": "testuser",
+    "role": "User",
+    "status": "Active",
+    "address": {
+      "street": "123 Test St",
+      "city": "Testville",
+      "zipcode": "12345"
+    },
+    "phone": "555-1234",
+    "website": "test.com",
+    "company": {
+      "name": "Test Inc.",
+      "catchPhrase": "Testing all the things",
+      "bs": "test bs"
     }
   }
 ]
