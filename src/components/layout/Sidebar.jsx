@@ -1,15 +1,16 @@
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
     <SidebarContainer>
       <Logo>YourLogo</Logo>
       <Nav>
-        <NavItem>My Info.</NavItem>
-        <NavItem>Blogs</NavItem>
-        <NavItem className="group">General Info.</NavItem>
-        <NavItem className="group">Team</NavItem>
-        <NavItem className="active">Photos</NavItem>
+        <NavItem to="/my-info">My Info.</NavItem>
+        <NavItem to="/blogs">Blogs</NavItem>
+        <NavItem to="/general-info" className="group">General Info.</NavItem>
+        <NavItem to="/team" className="group">Team</NavItem>
+        <NavItem to="/">Photos</NavItem>
       </Nav>
     </SidebarContainer>
   );
@@ -37,19 +38,21 @@ const Nav = styled.nav`
   flex-direction: column;
 `;
 
-const NavItem = styled.a`
+const NavItem = styled(NavLink)`
   padding: 15px 20px;
   margin-bottom: 10px;
   border-radius: 10px;
   cursor: pointer;
   font-weight: 500;
   transition: background-color 0.2s;
+  text-decoration: none; // Add this to remove default underline from NavLink
+  color: white; // Ensure text color is white
 
   &:hover {
     background-color: rgba(255, 255, 255, 0.1);
   }
 
-  &.active {
+  &.active { // This class is automatically applied by NavLink
     background-color: white;
     color: #1D7874;
     position: relative;
